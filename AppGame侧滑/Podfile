@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '8.0'
+
+target 'AppGame' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'FLAnimatedImage'
+pod 'MJExtension'
+pod 'SVProgressHUD'
+pod 'MJRefresh'
+pod 'PINCache'
+pod 'Mantle'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'NYXImagesKit'
+
+# U-Share SDK UI模块（分享面板，建议添加）
+pod ‘UMengUShare/UI’
+
+# 集成微信(完整版14.4M)
+pod ‘UMengUShare/Social/WeChat'
+
+# 集成QQ(完整版7.6M)
+pod ‘UMengUShare/Social/QQ'
+
+# 集成新浪微博(完整版25.3M)
+pod ‘UMengUShare/Social/Sina'
+
+#无IDFA版SDK
+pod 'UMengAnalytics-NO-IDFA'
+
+
+pod 'pop', '~> 1.0.9'
+
+pod 'Masonry'
+
+pod "BTLabel"
+end
